@@ -182,19 +182,22 @@ Courses page
           action="https://formspree.io/f/mrblvrbv"
           method="POST"
         >
+        <div class="form-group">    
           <label>  Seu email: 
-            <input type="email" name="email">  
+            <input type="email"  placeholder="Seu Email"  name="email"  required>  
           </label>
-            
+         </div>   
+
+         <div class="form-group">   
           <label>
             Sua mensagem:
-            <textarea name="message"></textarea>
+            <textarea rows="5" name="message"   placeholder="Insira seu nome e mensagem aqui"  required></textarea>
           </label>
+        </div>    
           <!-- your other form fields go here -->
           <button type="submit">Enviar mensagem:</button>
         </form>
-
-            
+       
     </section>
 
     <footer>

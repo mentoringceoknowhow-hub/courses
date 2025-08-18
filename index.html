@@ -174,17 +174,17 @@ Courses page
 
     <section id="contact" class="fade-in">
         <h2 class="section-title">CONTATOS</h2>
-        <form class="contact-form glass-card">
+        <form class="contact-form glass-card" action="processa_formulario.php" method="post">
             <div class="form-group">
-                <input type="text" placeholder="Seu nome" required>
+                <input type="text"  id="nome" name="nome" placeholder="Seu nome" required>
             </div>
             <div class="form-group">
-                <input type="email" placeholder="Seu Email" required>
+                <input type="email" id="email" name="email  placeholder="Seu Email" required>
             </div>
             <div class="form-group">
-                <textarea rows="5" placeholder="Your Message" required></textarea>
+                <textarea rows="5" id="mensagem" name="mensagem" placeholder="Your Message" required></textarea>
             </div>
-            <button type="submit" class="neural-btn">Envie uma mensagem</button>
+            <button type="submit" value="Enviar" class="neural-btn">Envie uma mensagem</button>
         </form>
     </section>
 
@@ -202,19 +202,18 @@ Courses page
             </div>
             
             <div class="footer-section">
-                <h3>Services</h3>
+                <h3>Servicos</h3>
                 <ul>
-                    <li><a href="#">Web Design</a></li>
-                    <li><a href="#">UI/UX Development</a></li>
-                    <li><a href="#">Frontend Development</a></li>
+                    <li><a href="#">Mentorias</a></li>
+                    <li><a href="#">Produtos PLR</a></li>
                     <li><a href="#">Consultation</a></li>
                 </ul>
             </div>
             
             <div class="footer-section">
-                <h3>Connect</h3>
+                <h3>Conexoes</h3>
                 <p style="color: var(--text-secondary); margin-bottom: 10px;">
-                    Let's build something amazing together
+                    Venha fazer parte de nossa rede de contatos
                 </p>
                 <div class="social-links">
                     <a href="#" aria-label="GitHub">

@@ -11,7 +11,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $mensagem_html .= "<p><strong>Mensagem:</strong> " . $mensagem . "</p>";
 
   // Configurações do email
-  $destinatario = "seu_email@gmail.com"; // Substitua pelo seu email Gmail
+  $destinatario = "mentoringceoknowhow@gmail.com"; // Substitua pelo seu email Gmail
   $assunto = "Novo contato do formulário";
   $headers = "MIME-Version: 1.0" . "\r\n";
   $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";

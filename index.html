@@ -177,18 +177,24 @@ Courses page
 
     <section id="contact" class="fade-in">
         <h2 class="section-title">CONTATOS</h2>
-        <form class="contact-form glass-card" action="processa_formulario.php" method="post">
-            <div class="form-group">
-                <input type="text"  id="nome" name="nome" placeholder="Seu nome" required>
-            </div>
-            <div class="form-group">
-                <input type="email" id="email" name="email  placeholder="Seu Email" required>
-            </div>
-            <div class="form-group">
-                <textarea rows="5" id="mensagem" name="mensagem" placeholder="Your Message" required></textarea>
-            </div>
-            <button type="submit" value="Enviar" class="neural-btn">Envie uma mensagem</button>
+                <!-- modify this form HTML and place wherever you want your form -->
+        <form   class="contact-form glass-card"
+          action="https://formspree.io/f/mrblvrbv"
+          method="POST"
+        >
+          <label>  Seu email: 
+            <input type="email" name="email">  
+          </label>
+            
+          <label>
+            Sua mensagem:
+            <textarea name="message"></textarea>
+          </label>
+          <!-- your other form fields go here -->
+          <button type="submit">Enviar mensagem:</button>
         </form>
+
+            
     </section>
 
     <footer>
